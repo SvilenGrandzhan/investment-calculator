@@ -1,0 +1,46 @@
+# will use same as Max variable names and default values in case I need to compare code
+
+1. Section 9 ToDos
+   - Video 115 Handling Events.
+     - Handle click event in input form -- done
+       - Name it resetHandler() -- done
+     - Handle submit event in input form -- done
+       - Note: add submit event to form html tag --done
+       - Name it submitHandler() -- done
+     - Handle onChange event in input form -- done
+       - Name it inputChangeHandler() -- done
+       - Make it reusable for all input -- done
+       - use 'input' and 'value' arguments -- done
+       - tested it, results displayed as expected in console
+   - Video 116 Manage State
+     - create variable for default values of initial state
+     - name it initialUser Input -- done
+       - current-savings default value: 10000
+       - contribution: 1200
+       - return rate: 7
+       - duration: 10
+     - use one state for all inputs -- done
+       - Note: use object key value pairs -- done. !this is actually done by extracting default values in separated variable
+       - use userInput and setUserInput as names for variables in state -- done
+     - update state in input and reset events
+       - Note: remember sometimes state depends on previous state -- done
+       - use prevInput as name -- done
+     - setup two way binding
+       - Note: do that in input tag by adding value property -- done
+       - Take out in two way binding value is set to state variable
+   - Video 117 lift State up
+     - link UserInput and App.js using props and calculateHandler function -- done
+       - Name it onCalculate -- done
+     - store yearly data as State
+       - name state variables userInput and setUserInput
+       - set default state to null
+       - ! don't forget to check if userInput initial data exists
+   - Video 118 output yearly data conditionally
+     - Use logical AND for dynamical display info
+       - add new prop to ResultsTable component and name it data
+       - in ResultsTable.js output data using map(). Note: don't forget key props. Use year as id
+       - add new prop to ResultsTable component and name it initialInvestment
+       - interest calculation formula: savings - initial investment - yearly contribution multiplied by the year
+       - total invested capital formula: initial investment - yearly contribution multiplied by the year
+       - use formatter.format() to format currency output
+   - All <tr> and <td> tags look very ugly, let's try to do it with grid
