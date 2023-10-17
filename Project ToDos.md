@@ -2,35 +2,35 @@
 
 1. Section 9 ToDos
    - Video 115 Handling Events.
-     - Handle click event in input form -- done
-       - Name it resetHandler() -- done
-     - Handle submit event in input form -- done
+     - Handle click event in input form
+       - Name it resetHandler()
+     - Handle submit event in input form
        - Note: add submit event to form html tag --done
-       - Name it submitHandler() -- done
-     - Handle onChange event in input form -- done
-       - Name it inputChangeHandler() -- done
-       - Make it reusable for all input -- done
-       - use 'input' and 'value' arguments -- done
+       - Name it submitHandler()
+     - Handle onChange event in input form
+       - Name it inputChangeHandler()
+       - Make it reusable for all input
+       - use 'input' and 'value' arguments
        - tested it, results displayed as expected in console
    - Video 116 Manage State
      - create variable for default values of initial state
-     - name it initialUser Input -- done
+     - name it initialUser Input
        - current-savings default value: 10000
        - contribution: 1200
        - return rate: 7
        - duration: 10
-     - use one state for all inputs -- done
-       - Note: use object key value pairs -- done. !this is actually done by extracting default values in separated variable
-       - use userInput and setUserInput as names for variables in state -- done
+     - use one state for all inputs
+       - Note: use object key value pairs . !this is actually done by extracting default values in separated variable
+       - use userInput and setUserInput as names for variables in state
      - update state in input and reset events
-       - Note: remember sometimes state depends on previous state -- done
-       - use prevInput as name -- done
+       - Note: remember sometimes state depends on previous state
+       - use prevInput as name
      - setup two way binding
-       - Note: do that in input tag by adding value property -- done
+       - Note: do that in input tag by adding value property
        - Take out in two way binding value is set to state variable
    - Video 117 lift State up
-     - link UserInput and App.js using props and calculateHandler function -- done
-       - Name it onCalculate -- done
+     - link UserInput and App.js using props and calculateHandler function
+       - Name it onCalculate
      - store yearly data as State
        - name state variables userInput and setUserInput
        - set default state to null
