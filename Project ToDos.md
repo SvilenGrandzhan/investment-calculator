@@ -14,7 +14,7 @@
        - tested it, results displayed as expected in console
    - Video 116 Manage State
      - create variable for default values of initial state
-     - name it initialUser Input
+     - name it initialUserInput
        - current-savings default value: 10000
        - contribution: 1200
        - return rate: 7
@@ -27,7 +27,7 @@
        - use prevInput as name
      - setup two way binding
        - Note: do that in input tag by adding value property
-       - Take out in two way binding value is set to state variable
+       - Take out: in two way binding value is set to state variable
    - Video 117 lift State up
      - link UserInput and App.js using props and calculateHandler function
        - Name it onCalculate
